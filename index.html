@@ -4,17 +4,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles.css">
   <!-- google icons -->
   <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <title>khaya | mnyandu</title>
   <script src="./app.js" defer></script>
   <script src="./person.js" defer></script>
-  <script src="https://kit.fontawesome.com/b9f5f8ebff.js" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/b9f5f8ebff.js" crossorigin="anonymous"></script>  
+  <link href="https://cdn.lineicons.com/3.0/lineicons.css" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <div class="logo-toggle-btn-container flex">
       <!-- <h2 class="logo">khaya</h2> -->
       <button class="nav-toggle fas fa-bars"></button>
@@ -39,8 +40,8 @@
       <h2 class="my-name">I'm <span class="name"> khaya mnyandu</span></h2>
       <p class="about-p">I am an aspiring full stack web developer</p>
       <button class="contact contact-btn">contact me</button>
-      <a href="https://www.canva.com/design/DAE_oA9ZGUQ/0xEDCzJLXQ8JCKJd0I9Teg/view?utm_content=DAE_oA9ZGUQ&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
-        class="contact-btn" target="_blank" style="text-decoration: none;">download cv</a>
+      <a href="./imgs/Khaya's CV.pdf" download="khaya's cv.pdf"
+        class="contact-btn" target="_blank" style="text-decoration: none;">download cv    <i class="lni lni-download"></i> </a>
     </div>
   </section>
 
@@ -396,7 +397,7 @@
       </div>
     </div>
   </footer>
-
+  <button class="back-top" type="button"><a href="#header"><i class="lni lni-chevron-up-circle"></i></a></button>
   <!-- footer -->
 </body>
 

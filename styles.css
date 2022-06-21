@@ -35,6 +35,10 @@ h1, h2, h3, ul, li, button{
 }
 
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--dark);
@@ -43,6 +47,28 @@ body {
     max-width: 55rem;
     margin-inline: auto;
 }   
+
+button {
+    cursor: pointer;
+}
+
+.back-top {
+    background-color: var(--pink);
+    border: none;
+    font-size: 2rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem
+}
+
+.back-top a {
+    transition: all 500ms;
+    text-decoration: none;
+    color: white;
+    padding:  .5rem;
+}
 
 /* @media (min-width: 25rem) {
     body{
