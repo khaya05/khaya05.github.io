@@ -521,9 +521,14 @@ input:focus, textarea:focus {
     border-bottom: 1px solid var(--pink);
 }
 
+.slide-show-container {
+    /* grid-template-columns: repeat(2, 1fr); */
+}
+
 .skill-cards-container {
     margin-top: 2rem;
     background-color: var(--dark-07);
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 2rem;
@@ -537,27 +542,18 @@ input:focus, textarea:focus {
         padding: 0;
         display: grid;
         gap: 1rem;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
-.skill-icon {
-    width: 20%;
-    overflow: hidden;
-}
-.skill-icon svg {
-    background-color: var(--dark-07);
-    color: var(--light);
-    aspect-ratio: 1/1;
-}
 
-.skill-detail {
-    width: 70%;
+.line-icon {
+    font-size: 3rem;
+    /* color: var(--pink) */
 }
-
 .skill-title {
-    margin-top: 0rem;
+    margin-top: 1rem;
     margin-bottom: 0;
-    text-align: center;
+    /* text-align: center; */
     text-transform: uppercase;
     color: var(--light);
     font-size: 1.3rem;
@@ -578,41 +574,6 @@ input:focus, textarea:focus {
     height: 100%;
 };
 
-.css {
-    width: 87%;
-}
-
-.js {
-    width: 81%;
-}
-
-.python {
-    width: 80%;
-}
-
-.sass {
-    width: 91%;
-}
-
-.bootstrap {
-    width: 88%;
-}
-
-.git {
-    width: 66%;
-}
-
-.github {
-    width: 62%
-}
-
-.bash {
-    width: 60%;
-}
-
-.vscode {
-    width: 93%
-}
 
 /* projects */
 #projects {
