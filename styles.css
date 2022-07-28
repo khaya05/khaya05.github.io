@@ -685,6 +685,5 @@ figcaption {
 
 .icon-container a:hover {
     color: var(--pink);
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
 }
-

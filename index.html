@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -40,21 +41,21 @@
       <h2 class="my-name">I'm <span class="name"> khaya mnyandu</span></h2>
       <p class="about-p">I am an aspiring full stack web developer</p>
       <button class="contact contact-btn">contact me</button>
-      <a href="./imgs/Khaya's CV.pdf" download="khaya's cv.pdf"
+      <a href="./imgs/my-cv.pdf" download="my-cv.pdf"
         class="contact-btn" target="_blank" style="text-decoration: none;">download cv    <i class="lni lni-download"></i> </a>
     </div>
   </section>
 
-  <section class="grid">
+  <div class="grid">
     <div class="modal">
-      <form class="modal-content" action="https://formspree.io/f/meqnpzzy" , method="POST">
+      <form class="modal-content" action="https://formspree.io/f/meqnpzzy" method="POST">
         <input type="text" class="name-input" name="firstname" placeholder="Name">
         <input type="email" class="email-input" name="email" placeholder="E-mail">
-        <textarea class="subject" name="message" placeholder="Your message ..." rows="14" , cols="90"></textarea>
+        <textarea class="subject" name="message" placeholder="Your message ..." rows="14" cols="90"></textarea>
         <button class=" send-msg contact-btn center-contact-btn">send message</button>
       </form>
     </div>
-  </section>
+  </div>
   <!-- about me -->
   <section id="about-me">
     <h3 class="title">about me</h3>
@@ -156,17 +157,16 @@
 
       <!-- btns -->
     </div>
-    </div>
-    </div>
+
   </section>
 
   <!-- projects -->
-  <section id="projects">
+  <section id="projects" style="height: 100px">
     <h3 class="title">recent projects</h3>
-    <div class="projects-cards-container slider">
-      <div class="project-card slide">
+    <!-- <div class="projects-cards-container slider"> -->
+      <!-- <div class="project-card slide"> -->
         <!-- bankist site -->
-        <div class="card">
+        <!-- <div class="card">
           <figure>
             <img src="./imgs/bankist-2.png" alt="bankist website" class="project-img">
             <figcaption>Bankist Website
@@ -185,10 +185,10 @@
                 Code</a>
             </button>
           </div>
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
       <!-- bankist dash -->
-      <div class="project-card slide">
+      <!-- <div class="project-card slide">
         <div class="card">
           <figure>
             <img src="./imgs/bankist-dashbord.png" alt="bankist website" class="project-img">
@@ -209,9 +209,9 @@
             </button>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- space site -->
-      <div class="project-card slide">
+      <!-- <div class="project-card slide">
         <div class="card">
           <figure>
             <img src="./imgs/space-2.png" alt="bankist website" class="project-img">
@@ -232,9 +232,9 @@
             </button>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- pig game -->
-      <div class="project-card slide">
+      <!-- <div class="project-card slide">
         <div class="card">
           <figure>
             <img src="./imgs/pig-game.png" alt="bankist website" class="project-img">
@@ -254,21 +254,21 @@
             </button>
           </div>
         </div>
-      </div>
-    </div>
-    <button class="contact contact-btn center-contact-btn">contact me</button>
+      </div> -->
+    <!-- </div> -->
+    <!-- <button class="contact contact-btn center-contact-btn" style="margin-block: 42px;">contact me</button> -->
 
   </section>
 
   <section id="contact">
-    <form class="contact-form" action="https://formspree.io/f/meqnpzzy" , method="POST">
+    <form class="contact-form" action="https://formspree.io/f/meqnpzzy"  method="POST">
       <h3 class="title">send me a message</h3>
       <input type="text" class="footer-name" name="name" placeholder="Name" required>
       <br>
       <input type="email" class="footer-email" name="email" placeholder="Email" required>
       <br>
       <textarea name="message" class="footer-textarea" cols="20" rows="10" placeholder="Your message ..."></textarea>
-      <button class="footer-brn contact-btn center-contact-btn" type="submit">send message</button>
+      <button class="footer-brn contact-btn center-contact-btn" type="submit" style="margin-bottom: 20px;">send message</button>
     </form>
   </section>
   <!-- footer -->
@@ -308,7 +308,7 @@
       </div>
     </div>
   </footer>
-  <button class="back-top" type="button"><a href="#header"><i class="lni lni-chevron-up-circle"></i></a></button>
+  <a class="back-top" href="#header"><button class="back-top" type="button" style="color: white;"><i class="lni lni-chevron-up-circle"></i></button></a>
   <!-- footer -->
 </body>
 
