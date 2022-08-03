@@ -45,7 +45,7 @@ body {
   background-color: var(--dark);
   color: var(--light);
   margin: 1.2rem;
-  max-width: 55rem;
+  /* max-width: 55rem; */
   margin-inline: auto;
 }
 
@@ -161,12 +161,26 @@ header {
 }
 
 @media (min-width: 40.5rem) {
+  body:not(:first-child){
+    max-width: 55rem;
+  }
   .overlay {
     position: static;
     width: 100%;
     height: auto;
     margin: 0;
     padding: 0;
+  }
+
+   header{
+    margin-top: 0;
+    padding: 2rem;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background-color: var(--dark);
+    /* border: 1px solid white; */
+    z-index: 10000;
   }
 
   .nav-links {
@@ -201,7 +215,7 @@ header {
 
 #home {
   margin-top: 10rem;
-  /* border: 1px solid var(--dark);      not ok */
+  /* border: 1px solid black;       */
   height: calc(100% - 11.3rem);
   border-bottom: 1px solid var(--pink);
 }
